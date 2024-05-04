@@ -26,7 +26,7 @@ fileInput.addEventListener("change", function() {
   reader.readAsText(fileInput.files[0]);
 });
 
-// EXPERIMENT -> OPENING .TXT FILES FROM MOBILE DEVICES
+// TEXT SHARING FUNCTION JS CODE
 const shareButton = document.getElementById("share-button");
 
 shareButton.addEventListener("click", function() {
