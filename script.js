@@ -62,3 +62,21 @@ function fallbackShare(text) {
   }
 }
 
+// TXT FILE SAVING FUNCTION JS CODE
+const saveButton = document.getElementById("save-button");
+const saveFileInput = document.getElementById("save-file-input");
+
+saveButton.addEventListener("click", function() {
+  const textArea = document.getElementById("text-area");
+  const text = textArea.value;
+
+  const blob = new Blob([text], { type: "text/plain" });
+
+  saveFileInput.click(); // Trigger "Save As" dialog
+
+  const url = URL.createObjectURL(blob);
+  saveFileInput.href = url;
+
+  // Reset the URL after some time to avoid memory leaks (optional)
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+});
