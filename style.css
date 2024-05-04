@@ -1,0 +1,17 @@
+textarea {
+    background-color: #1E1E1E;
+    color: #D6D6D6;
+    font-family: Consolas, Monaco, "Fira Code", monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 10px;
+    margin: 15px;
+    border: none; /* Remove default border */
+    outline: none; /* Remove default outline */
+    resize: both; /* Allow resizing the textarea */
+
+    border: 1px solid #2A2A2A;
+    scrollbar-color: #4A4A4A transparent; /* For Webkit browsers */
+    scrollbar-width: thin; /* For Firefox */
+  }
+  
