@@ -1,3 +1,8 @@
+body {
+    background-color: #1E1E1E;
+}
+
+
 textarea {
     background-color: #1E1E1E;
     color: #D6D6D6;
@@ -13,5 +18,4 @@ textarea {
     border: 1px solid #2A2A2A;
     scrollbar-color: #4A4A4A transparent; /* For Webkit browsers */
     scrollbar-width: thin; /* For Firefox */
-  }
-  
+}
