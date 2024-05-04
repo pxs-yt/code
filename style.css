@@ -15,7 +15,7 @@ textarea {
     outline: none; /* Remove default outline */
     resize: both; /* Allow resizing the textarea */
 
-    border: 1px solid #2A2A2A;
+    border: 3px solid #2A2A2A;
     scrollbar-color: #4A4A4A transparent; /* For Webkit browsers */
     scrollbar-width: thin; /* For Firefox */
 }
