@@ -18,13 +18,16 @@ body {
     padding: 10px;
 }
 
+.sidebar-text {
+    align-items: center;
+}
+
 .sidebar-item {
     display: block;
     padding: 10px;
     text-decoration: none;
     color: inherit;
     overflow: hidden;
-    text-align: center;
 }
 
 .sidebar-item:hover {
