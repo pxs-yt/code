@@ -1,7 +1,7 @@
 // **SIDEBAR TOGGLING JS CODE**
 
 const sidebar = document.querySelector(".sidebar");
-const toggleButton = document.querySelector(".sidebar-toggle");
+const toggleButton = document.querySelector("#sidebar-toggle");
 
 // Add functionality to toggle sidebar width class (e.g., "sidebar-minimized")
 
