@@ -1,9 +1,59 @@
 body {
+    margin: 0;
+    padding: 0;
     background-color: #2d2d30;
+    font-family: sans-serif;
 }
 
+/* SIDEBAR CSS CODE */
+.container {
+    display: flex;
+    height: 100vh;
+}
 
-textarea {
+.sidebar {
+    width: 200px;
+    background-color: #1E1E1E;
+    color: #D6D6D6;
+    padding: 10px;
+}
+
+.sidebar-item {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.sidebar-item:hover {
+    background-color: #2A2A2A;
+    cursor: pointer;
+}
+
+.sidebar-item:active {
+    background-color: #333333;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+#text-area {
+    width: 100%;
+    height: calc(100vh - 80px); /* Minus some padding */
+    background-color: #272822;
+    color: #D6D6D6;
+    font-family: Consolas, Monaco, "Fira Code", monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    border: none;
+    outline: none;
+    padding: 10px;
+    resize: both;
+}
+
+/* textarea {
     background-color: #1E1E1E;
     color: #D6D6D6;
     font-family: Consolas, Monaco, "Fira Code", monospace;
@@ -11,14 +61,12 @@ textarea {
     line-height: 1.5;
     padding: 10px;
     margin: 15px;
-    border: none; /* Remove default border */
-    outline: none; /* Remove default outline */
-    resize: both; /* Allow resizing the textarea */
+    border: none;
 
     border: 3px solid #2A2A2A;
-    scrollbar-color: #4A4A4A transparent; /* For Webkit browsers */
-    scrollbar-width: thin; /* For Firefox */
-}
+    scrollbar-color: #4A4A4A transparent;
+    scrollbar-width: thin;
+} */
 
 #clear-button {
     display: inline-block;
