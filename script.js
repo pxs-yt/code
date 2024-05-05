@@ -1,14 +1,3 @@
-// SIDEBAR JS CODE
-
-const sidebar = document.querySelector(".sidebar");
-const toggleButton = document.createElement("button");
-
-toggleButton.textContent = "Hide Sidebar";
-toggleButton.classList.add("sidebar-toggle");
-
-sidebar.appendChild(toggleButton);
-
-
 // SIDEBAR TOGGLING JS CODE
 
 const sidebar = document.querySelector(".sidebar");
