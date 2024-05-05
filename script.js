@@ -8,14 +8,6 @@ toggleButton.classList.add("sidebar-toggle");
 
 sidebar.appendChild(toggleButton);
 
-toggleButton.addEventListener("click", function() {
-  sidebar.classList.toggle("hidden");
-  if (sidebar.classList.contains("hidden")) {
-    toggleButton.textContent = "Show Sidebar";
-  } else {
-    toggleButton.textContent = "Hide Sidebar";
-  }
-});
 
 // SIDEBAR TOGGLING JS CODE
 
