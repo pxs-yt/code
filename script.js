@@ -1,4 +1,4 @@
-// SIDEBAR TOGGLING JS CODE
+// **SIDEBAR TOGGLING JS CODE**
 
 const sidebar = document.querySelector(".sidebar");
 const toggleButton = document.querySelector(".sidebar-toggle");
@@ -17,7 +17,7 @@ sidebar.addEventListener("transitionend", function() {
 
 
 
-// CLEAR BUTTON JS CODE
+// **CLEAR BUTTON JS CODE**
 const clearButton = document.getElementById("clear-button");
 
 clearButton.addEventListener("click", function() {
@@ -26,7 +26,7 @@ clearButton.addEventListener("click", function() {
 });
 
 
-// OPEN FILE BUTTON JS CODE
+// **OPEN FILE BUTTON JS CODE**
 const openFileButton = document.getElementById("open-file-button");
 const fileInput = document.getElementById("file-input");
 
@@ -45,7 +45,7 @@ fileInput.addEventListener("change", function() {
   reader.readAsText(fileInput.files[0]);
 });
 
-// TEXT SHARING FUNCTION JS CODE
+// **TEXT SHARING FUNCTION JS CODE**
 const shareButton = document.getElementById("share-button");
 
 shareButton.addEventListener("click", function() {
@@ -81,7 +81,7 @@ function fallbackShare(text) {
   }
 }
 
-// TXT FILE SAVING FUNCTION JS CODE
+// **TXT FILE SAVING FUNCTION JS CODE**
 const saveButton = document.getElementById("save-button");
 const saveFileInput = document.getElementById("save-file-input");
 

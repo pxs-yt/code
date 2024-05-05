@@ -24,6 +24,7 @@ body {
     text-decoration: none;
     color: inherit;
     overflow: hidden;
+    text-align: center;
 }
 
 .sidebar-item:hover {
