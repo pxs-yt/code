@@ -23,16 +23,35 @@ body {
     padding: 10px;
     text-decoration: none;
     color: inherit;
+    overflow: hidden;
 }
 
 .sidebar-item:hover {
     background-color: #2A2A2A;
     cursor: pointer;
+    overflow: visible;
 }
 
 .sidebar-item:active {
     background-color: #333333;
+    overflow: visible;
 }
+
+.sidebar-item-icon-only {
+    /* Hide the text content */
+    width: 40px; /* Adjust width for icon size */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Initially set overflow to hidden to truncate text */
+    overflow: hidden;
+}
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------- */
 
 .main-content {
     flex: 1;
@@ -53,20 +72,7 @@ body {
     resize: both;
 }
 
-/* textarea {
-    background-color: #1E1E1E;
-    color: #D6D6D6;
-    font-family: Consolas, Monaco, "Fira Code", monospace;
-    font-size: 14px;
-    line-height: 1.5;
-    padding: 10px;
-    margin: 15px;
-    border: none;
 
-    border: 3px solid #2A2A2A;
-    scrollbar-color: #4A4A4A transparent;
-    scrollbar-width: thin;
-} */
 
 #clear-button {
     display: inline-block;
@@ -154,3 +160,8 @@ body {
     background: rgba(86, 207, 225,0.9);
     box-shadow: 0 6px 20px rgb(86 207 225 / 23%);
 }
+
+
+
+
+  

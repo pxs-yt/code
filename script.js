@@ -17,6 +17,22 @@ toggleButton.addEventListener("click", function() {
   }
 });
 
+// SIDEBAR TOGGLING JS CODE
+
+const sidebar = document.querySelector(".sidebar");
+const toggleButton = document.querySelector(".sidebar-toggle");
+
+// Add functionality to toggle sidebar width class (e.g., "sidebar-minimized")
+
+sidebar.addEventListener("transitionend", function() {
+  // Update sidebar item styles based on minimized state
+  const sidebarItems = document.querySelectorAll(".sidebar-item");
+  sidebarItems.forEach(item => {
+    item.classList.toggle("sidebar-item-icon-only", sidebar.classList.contains("sidebar-minimized"));
+  });
+});
+
+
 
 
 

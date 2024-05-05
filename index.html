@@ -6,23 +6,42 @@
     <title>PXS TEXT/CODE EDITOR</title>
     <!-- MAIN CSS CODE -->
     <link rel="stylesheet" href="style.css">
+    <!-- GOOGLE FONTS ICON LIBRARY (MATERIAL SYMBOLS ROUNDED) -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <!-- SIDEBAR -->
     <div class="container">
         <div class="sidebar">
-            <a href="#" class="sidebar-item active">Home</a>
-            <a href="#" class="sidebar-item">Files</a>
-            <a href="#" class="sidebar-item">Search</a>
-            <a href="#" class="sidebar-item">Run</a>
-            <a href="#" class="sidebar-item">Debug</a>
-            <a href="#" class="sidebar-item">Settings</a>
+          <a href="#" class="sidebar-item active">
+            <span class="material-symbols-rounded">home</span>
+            Home
+          </a>
+          <a href="#" class="sidebar-item">
+            <span class="material-symbols-rounded">folder</span>
+            Files
+          </a>
+          <a href="#" class="sidebar-item">
+            <span class="material-symbols-rounded">search</span>
+            Search
+          </a>
+          <a href="#" class="sidebar-item">
+            <span class="material-symbols-rounded">play_arrow</span>
+            Run
+          </a>
+          <a href="#" class="sidebar-item">
+            <span class="material-symbols-rounded">bug_report</span>
+            Debug
+          </a>
+          <a href="#" class="sidebar-item">
+            <span class="material-symbols-rounded">settings</span>
+            Settings
+          </a>
         </div>
-        <!-- MAIN TEXT AREA -->
         <div class="main-content">
-            <textarea id="text-area" placeholder="Write your code here..."></textarea>
+          <textarea id="text-area" placeholder="Write your code here..."></textarea>
         </div>
-    </div>
+      </div>
 
     <button class="clearButton" id="clear-button">Clear</button>
 
